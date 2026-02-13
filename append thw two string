@@ -1,0 +1,14 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        String S=s.nextLine();
+        String f=s.nextLine();
+        StringBuilder sb=new StringBuilder(S);
+        sb.append(f);
+        System.out.println(sb);
+    }
+}
